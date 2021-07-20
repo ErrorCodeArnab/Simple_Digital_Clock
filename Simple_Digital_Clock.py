@@ -10,7 +10,7 @@ def time():
     # Time format in Hour: Minutes : Second & AM/PM
     string = strftime('%H:%M:%S %p')
     label.config(text=string)
-    label.after(1000, time)
+    label.after(1000, time) # 1000 = 1second
     
     
 # Colors are changeable. Tkinter supports "white", "black", "red", "green", "blue", "cyan", "yellow", and "magenta" . For more just Google it.
